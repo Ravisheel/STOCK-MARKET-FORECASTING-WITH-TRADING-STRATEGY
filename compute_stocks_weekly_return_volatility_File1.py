@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 
-ticker="SPOT"
+ticker="SPOT"  # change the stock name here
 input_dir = os.getcwd()
 output_file = os.path.join(input_dir, ticker + '_weekly_return_volatility.csv')
 
